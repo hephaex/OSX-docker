@@ -3,7 +3,7 @@ OSX on Docker Env.
 
 ## Prepare Disk Image
 
-1. refer to this [repository](https://github.com/hephaex/OSX-KVM), prepare Dick image of your macOS 
+1. refer to this [repository](https://github.com/hephaex/OSX-KVM), prepare Disk image of your macOS 
 1. rename to osx.iso from generated ISO.
 1. docker pull hephaex/osx
 
