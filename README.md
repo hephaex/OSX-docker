@@ -12,10 +12,10 @@ OSX on Docker Env.
 ```
 docker run -d --name macOS \
 --device /dev/kvm:/dev/kvm \
--p 5900:5900 \
+-p 5000:5000 \
 -v ~/osx-docker/data:/data \
 hephaex/osx
 ```
 
 ## Connect OSX
-Connect to VNC using port no. 5900
+Connect to VNC using port no. 5000
