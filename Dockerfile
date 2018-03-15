@@ -1,7 +1,6 @@
-FROM ubuntu:bionic
+FROM ubuntu:16.04
 
 MAINTAINER Mario Cho <hephaex@gmail.com>
-
 ENV DEBIAN_FRONTEND=noninteractive
 ENV QEMU_AUDIO_DRV=none
 
