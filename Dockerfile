@@ -10,7 +10,7 @@ RUN apt-get -qq update && apt-get -qq install -y \
     qemu qemu-kvm qemu-utils \
     libguestfs-tools linux-image-generic uml-utilities \
     virt-manager libvirt-bin bridge-utils \
-    && apt-get clean \
+    && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* 
     
 RUN git clone https://github.com/hephaex/OSX-KVM.git \
